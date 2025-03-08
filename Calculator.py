@@ -5,17 +5,17 @@ def sumar(a, b):
 
 def restar(a, b):
     return a - b
-
+#Multiplicar
 def multiplicar(a, b):
     return a * b
-
+#Dividir
 def dividir(a, b):
     if b == 0:
         print("No se puede dividir por 0")
         return
     
     return a/b
-#Salir
+
 def salir():
     print("Salio")
 
